@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+    body {
+        background-color: rgb(48, 47, 47);
+    }
+    h1 {
+        color: white;
+
+    }
+    a {
+        color: white;
+    }
+    main {
+        width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+    
+   

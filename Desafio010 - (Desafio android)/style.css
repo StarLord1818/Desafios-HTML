@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+body {
+    background-color: #84E1AD;
+
+}
+main {
+    display: block;
+    background-color: white;
+    margin: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+div {
+    display: block;
+    background-color: white;
+}
+header {
+    background-image: linear-gradient(#3BD17F, #1A5C38);
+    color: white;
+    text-align: center;
+}
+nav {
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    margin-right: 10px;
+}
+aside {
+    display: block;
+    background-color: #C5EBD6;
+    margin: 17px;
+    border-radius: 10px;
+    text-indent: 10px;
+   
+    
+}
+h1#curiosidades {
+    font-family: 'Bebas Neue';
+}
+#mascote {
+    text-align: left;
+    text-indent: 30px;
+    font-family: 'idroid', sans-serif;
+    color: #2F734C;
+}
+.texto {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px;
+}
+.subtitulo {
+    text-align: left;
+    text-indent: 30px;
+    font-family: 'idroid', sans-serif;
+    color: #2F734C;
+    background-image: linear-gradient(to right, #AFD8C1, #D6F2E2, #FBFDFC);
+}
+li {
+    columns: 10px 2;
+    
+}
+#aprender {
+    color: white;
+    background-color: #32A664;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: left;
+    text-indent: 10px;
+    padding: 5px;
+    
+}
+li {
+    text-align: left;
+}
+footer {
+    background-color: #1B5936;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
