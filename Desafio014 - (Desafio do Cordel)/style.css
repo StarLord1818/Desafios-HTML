@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Passion+One:wght@400;700;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Passion+One:wght@400;700;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+}
+#imagemflor {
+    
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: left right;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, 50%);
+} 
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 80px;
+
+}
+header h1 {
+    font-family: 'Passion One';
+    font-size: 10vh;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    
+}
+section > p {
+    padding-left: 30px;
+    font-family: 'Sriracha', sans-serif;
+    font-size: 10vh;
+}
+
+
+     
