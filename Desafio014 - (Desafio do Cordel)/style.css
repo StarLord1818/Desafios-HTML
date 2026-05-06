@@ -4,11 +4,11 @@
 
 
 * {
-    padding: 0px;
-    margin: 0px;
+   padding: 0px;
+   margin: 0px;
 }
-body {
-}
+
+
 
 #especial {
     background-image: url('imagens/background001.jpg');
@@ -17,12 +17,24 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    font-size: 5vw;
 }
 #especial > p{
-    padding-left: 30px;
     font-family: 'Sriracha', sans-serif;
-    font-size: 10vh;
+    font-size: 5vh;
+
 }
+#cartas {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cartas > p {
+    
+}
+
 header {
     background-color: black;
     color: white;
@@ -40,12 +52,21 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    text-decoration: underline;
+}
 section {
-    
+
 }
 section > p {
     padding-left: 30px;
     font-family: 'Sriracha', sans-serif;
-    font-size: 10vh;
+    font-size: 5vh;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
