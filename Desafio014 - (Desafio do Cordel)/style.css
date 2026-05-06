@@ -9,17 +9,20 @@
 }
 body {
 }
-#imagemflor {
-    
+
+#especial {
     background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-position: left right;
     background-size: cover;
     background-attachment: fixed;
-    top: 50%;
-    right: 50%;
-    transform: translate(-50%, 50%);
-} 
+    color: white;
+}
+#especial > p{
+    padding-left: 30px;
+    font-family: 'Sriracha', sans-serif;
+    font-size: 10vh;
+}
 header {
     background-color: black;
     color: white;
@@ -46,5 +49,3 @@ section > p {
     font-size: 10vh;
 }
 
-
-     
