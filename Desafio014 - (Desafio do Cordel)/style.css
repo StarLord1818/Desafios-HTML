@@ -7,21 +7,18 @@
    padding: 0px;
    margin: 0px;
 }
+body {
 
-
-
-#especial {
+} 
+#joaninha {
     background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-position: left right;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    padding: 80px 20px;
+    box-shadow: inset 0px 7px 7px 0px rgba(0, 0, 0, 0.39);
     font-size: 5vw;
-}
-#especial > p{
-    font-family: 'Sriracha', sans-serif;
-    font-size: 5vh;
 
 }
 #cartas {
@@ -29,11 +26,24 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-}
-#cartas > p {
+    background-attachment: cover;
+    padding: 80px 20px;
+    box-shadow: inset 0px 7px 7px 0px rgba(0, 0, 0, 0.39);
     
+
 }
+ .imagemtexto{
+    background-color: rgba(0, 0, 0, 0.425);
+    font-family: 'Sriracha', sans-serif;
+    font-size: 5vw;
+    display: inline-block;
+    line-height: 1.8em;
+    padding-left: 30px;
+    color: white;
+
+  
+}
+
 
 header {
     background-color: black;
@@ -55,13 +65,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
-section {
 
-}
 section > p {
     padding-left: 30px;
     font-family: 'Sriracha', sans-serif;
-    font-size: 5vh;
+    font-size: 5vw;
 }
 footer {
     background-color: black;
